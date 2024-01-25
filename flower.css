@@ -22,12 +22,12 @@
     font-size: 12px;
     color: #272727;
     opacity: 70%;
-    margin: 30px auto;
+    margin: 20px auto;
 }
-#btn{
+.btn{
     background-color: #E55473;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
     font-weight: 600;
@@ -35,4 +35,82 @@
 }
 .banner-img{
     width: 335px;
+}
+.flowers-container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+ 
+}
+.flower-description{
+    text-align: center;
+    margin-top: 100px ;
+    margin-bottom: 30px;
+}
+.flower-title{
+    font-weight: 900;
+}
+.flower{
+    width: 100%;
+    height: 300px;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flower img{
+    width: 250px;
+    height: 300px;
+   
+    position: absolute;
+    bottom: 0;
+}
+.flower:nth-child(1){
+    background-color: #a7216221;
+}
+.flower:nth-child(2){
+    background-color: #0598a03a;
+}
+.flower:nth-child(3){
+    background-color: #477d111e;
+}
+.flower-anchor{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.anchor{
+    color: black;
+}
+.hot-deal{
+    
+    text-align: center;
+   
+}
+#hot-title{
+    font-weight: 900;
+}
+.title-clr{
+    color: #E55473;
+}
+.hot-deal-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+   background-color: #e554730c;
+   padding: 30px;
+}
+.hot-deal-container img{
+    height: 300px;
+
 }
